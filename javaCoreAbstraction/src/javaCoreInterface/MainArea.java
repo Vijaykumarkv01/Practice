@@ -16,6 +16,7 @@ public class MainArea {
 			 Rectangle rec=new Rectangle();
 			 rec.area(len, bre);
 			 rec.perimeter();
+			 rec.show();
 			 break;
 		 }
 		 case 2:{
@@ -24,6 +25,7 @@ public class MainArea {
 			 Circle ci=new Circle();
 			 ci.area(red, 0);
 			 ci.perimeter();
+			 ci.show();
 			 break;
 		 }
 		 case 3:{
@@ -33,13 +35,14 @@ public class MainArea {
 			Triangle tri=new Triangle();
 			 tri.area(base,hei);
 			 tri.perimeter();
+			 tri.show();
 			 break;
 		 }
 		 default :{
 			 System.out.println("You enterd wrong Choice");
 		 }
 		 }
-		 
+		 sc.close();
 	}
 
 }
