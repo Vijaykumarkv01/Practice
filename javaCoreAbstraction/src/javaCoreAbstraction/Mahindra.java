@@ -4,7 +4,7 @@ public class Mahindra extends Car {
 
 	@Override
 	public void modelName() {
-		// TODO Auto-generated method stub
+	
 		System.out.println("XUV 700");
 	}
 
